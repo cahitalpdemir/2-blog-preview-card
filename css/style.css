@@ -8,13 +8,16 @@ body{
 }
 
 .card {
-    height: 522px;
-    width: 384px; 
-
+  
     border-radius: 20px !important;
     box-shadow: 8px 10px 0px black;
 }
+.blog-card{
+    min-width: 327px;
+    max-width: 384px;
 
+
+}
 .card:active {
     box-shadow: 15px 12px 0px black;
 }
@@ -23,18 +26,14 @@ body{
     opacity: 0.9;
 }
 
-.card-image {
-    background-image: url(/assets/images/illustration-article.svg);
-    width: 336px;
-    height: 200px;
-    border-radius: 10px;
+
     
 
-}
+
 
 .card-content_tag {
     text-align: center;
-    width: 82px;
+    width: 90px;
     height: 29px;
     font-size: 15px;
     background-color: #F4D04E;
